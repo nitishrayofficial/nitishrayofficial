@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name – Entrepreneur & Systems Engineer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Sticky Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">YourName</a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#recommendations">Recs</a>
+        <a href="#contact">Contact</a>
+        <a href="portfolio.html" class="btn-cta">Portfolio</a>
+      </nav>
+      <button class="hamburger" aria-label="Menu">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- Hero Slider -->
+  <section class="hero-slider">
+    <div class="slide active" style="background-image:url('hero1.jpg')">
+      <div class="overlay">
+        <h1>Empower. Mentor. Grow.</h1>
+        <a href="#contact" class="btn">Let’s Connect</a>
+      </div>
+    </div>
+    <div class="slide" style="background-image:url('hero2.jpg')">
+      <div class="overlay">
+        <h1>My Amway Journey</h1>
+        <a href="#about" class="btn">Discover More</a>
+      </div>
+    </div>
+    <div class="slider-controls">
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section reveal">
+    <div class="container grid-2">
+      <div class="text">
+        <h2>My Story</h2>
+        <p>From startup dreamer to Systems Engineer…</p>
+      </div>
+      <img src="story.jpg" alt="My journey"/>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section id="events" class="section reveal">
+    <div class="container">
+      <h2>Events &amp; Seminars</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="event1.jpg" alt="Event 1"/>
+          <h3>Global Summit 2024</h3>
+          <p>How it fueled my vision.</p>
+        </div>
+        <div class="card">
+          <img src="event2.jpg" alt="Event 2"/>
+          <h3>Leadership Workshop</h3>
+          <p>Key lessons learned.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recommendations Section -->
+  <section id="recommendations" class="section reveal">
+    <div class="container">
+      <h2>Books &amp; Movies</h2>
+      <ul class="recommend-list">
+        <li><strong>The Alchemist</strong> — for vision and courage.</li>
+        <li><strong>Moneyball</strong> — about finding edge in data.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section reveal">
+    <div class="container grid-2">
+      <form class="contact-form">
+        <h2>Get in Touch</h2>
+        <input type="text" name="name" placeholder="Your Name" required/>
+        <input type="email" name="email" placeholder="Your Email" required/>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="social">
+        <h2>Find me online</h2>
+        <a href="#" class="social-link">LinkedIn</a>
+        <a href="#" class="social-link">Twitter</a>
+        <a href="#" class="social-link">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Back to Top -->
+  <button id="backToTop" aria-label="Back to top">↑</button>
+  <script src="app.js"></script>
+</body>
+</html>
